@@ -6,8 +6,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	
 )
 
 var (
@@ -26,6 +24,7 @@ var (
 // 2. This function should be called once.
 // 3. Please refer to issue: https://github.com/golang/go/issues/34814
 func SetTimeZone(zone string) (err error) {
+	fmt.Println("zone!!")
 	setTimeZoneMu.Lock()
 	defer setTimeZoneMu.Unlock()
 	if setTimeZoneName != "" && !strings.EqualFold(zone, setTimeZoneName) {
@@ -48,7 +47,7 @@ func SetTimeZone(zone string) (err error) {
 	// Load zone info from specified name.
 	location, err := time.LoadLocation(zone)
 	if err != nil {
-		err = fmt.Errorf( `time.LoadLocation failed for zone "%s"`, zone)
+		err = fmt.Errorf(`time.LoadLocation failed for zone "%s"`, zone)
 		return err
 	}
 
