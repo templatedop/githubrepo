@@ -8,6 +8,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
 	"github.com/templatedop/githubrepo/dregex"
 	"github.com/templatedop/githubrepo/utils"
 )
@@ -91,6 +92,7 @@ var (
 
 // Timestamp retrieves and returns the timestamp in seconds.
 func Timestamp() int64 {
+	fmt.Println("Checking!!")
 	return Now().Timestamp()
 }
 
