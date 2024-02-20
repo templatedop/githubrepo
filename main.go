@@ -6,7 +6,7 @@ import (
 	"time"
 
 	//"time"
-	"gitlab.cept.gov.in/it-2.0-common/go-api-template/dtime"
+	"github.com/templatedop/githubrepo/dtime"
 	//"github.com/aarondl/opt/null"
 	//"github.com/jackc/pgx/v5"
 	//"github.com/jackc/pgx/v5/pgtype"

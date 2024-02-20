@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.cept.gov.in/it-2.0-common/go-api-template/dregex"
-	"gitlab.cept.gov.in/it-2.0-common/go-api-template/utils"
+	"github.com/templatedop/githubrepo/dregex"
+	"github.com/templatedop/githubrepo/utils"
 )
 
 const (

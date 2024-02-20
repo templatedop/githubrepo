@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-	"gitlab.cept.gov.in/it-2.0-common/go-api-template/dregex"
+	"github.com/templatedop/githubrepo/dregex"
 )
 
 var (

@@ -4,7 +4,7 @@ package utils
 import (
 	"reflect"
 
-	"gitlab.cept.gov.in/it-2.0-common/go-api-template/empty"
+	"github.com/templatedop/githubrepo/empty"
 )
 
 // IsNil checks whether `value` is nil, especially for interface{} type value.

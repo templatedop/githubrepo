@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"gitlab.cept.gov.in/it-2.0-common/go-api-template/reflection"
+	"github.com/templatedop/githubrepo/reflection"
 )
 
 // iString is used for type assert api for String().

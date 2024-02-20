@@ -1,3 +1,3 @@
-module gitlab.cept.gov.in/it-2.0-common/go-api-template
+module github.com/templatedop/githubrepo
 
 go 1.21.1
