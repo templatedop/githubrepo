@@ -1,0 +1,8 @@
+github.com/templatedop/githubrepo/dregex v0.0.0-20240220073342-4f032437cd6e h1:fDev1eW/1XmeVfCgg8H9uQ1wfXWngUpyRi/MDDZwN7A=
+github.com/templatedop/githubrepo/dregex v0.0.0-20240220073342-4f032437cd6e/go.mod h1:F8MrnpT/Wo4FsMMKU6oIiSKaOs7TO4NXW5KxtuLpfps=
+github.com/templatedop/githubrepo/empty v0.0.0-20240220073252-a80fe7296960 h1:9IB9eXFmT4361+Mj4wr/MUNQqKy5sXxK8/MfESo4EvQ=
+github.com/templatedop/githubrepo/empty v0.0.0-20240220073252-a80fe7296960/go.mod h1:L6sARw9s9Kmmtb9NCEz7NOAnlWX7RtVPK+rRsYwtBLA=
+github.com/templatedop/githubrepo/reflection v0.0.0-20240220073252-a80fe7296960 h1:3DpeWKa0ud5RuTXm/jVAVwVRSTsMHJqcRINssI/cwu8=
+github.com/templatedop/githubrepo/reflection v0.0.0-20240220073252-a80fe7296960/go.mod h1:agYCQwb9Smn/J46uEKGzNTpFCl0NigZySpMbhger0uM=
+github.com/templatedop/githubrepo/utils v0.0.0-20240220073342-4f032437cd6e h1:M59VvQqvHeUIXV2cQi7Yg+/cViQr8rbjG3hr6dKkwMY=
+github.com/templatedop/githubrepo/utils v0.0.0-20240220073342-4f032437cd6e/go.mod h1:bmrFr484gUI8tp/kkOFViWwn1e+y74Z0B73NIyzJWpw=
