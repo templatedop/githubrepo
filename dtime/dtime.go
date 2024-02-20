@@ -92,7 +92,7 @@ var (
 
 // Timestamp retrieves and returns the timestamp in seconds.
 func Timestamp() int64 {
-
+	fmt.Println("Will this change anything!!!")
 	return Now().Timestamp()
 }
 
