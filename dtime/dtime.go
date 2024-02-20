@@ -8,7 +8,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
 	"github.com/templatedop/githubrepo/dregex"
 	"github.com/templatedop/githubrepo/utils"
 )
