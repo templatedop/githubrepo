@@ -24,7 +24,7 @@ var (
 // 2. This function should be called once.
 // 3. Please refer to issue: https://github.com/golang/go/issues/34814
 func SetTimeZone(zone string) (err error) {
-	fmt.Println("zone!!")
+	//fmt.Println("zone!!")
 	setTimeZoneMu.Lock()
 	defer setTimeZoneMu.Unlock()
 	if setTimeZoneName != "" && !strings.EqualFold(zone, setTimeZoneName) {
