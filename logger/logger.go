@@ -30,7 +30,6 @@ type Logger struct {
 }
 
 var _ Interface = (*Logger)(nil)
-
 // func New() *Logger {
 // 	if instance == nil {
 // 		instance = &Logger{}
@@ -51,7 +50,7 @@ var _ Interface = (*Logger)(nil)
 // New -.
 func New() *Logger {
 	
-	//var l zerolog.Level
+	
 	once.Do(func() {
 		// switch strings.ToLower(level) {
 		// case "error":
@@ -79,7 +78,7 @@ func New() *Logger {
 }
 
 func (log *Logger) SetLevel(level string) {
-	//log.Initialize()
+	
 	var l zerolog.Level
 	switch strings.ToLower(level) {
 	case "error":
