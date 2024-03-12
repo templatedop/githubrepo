@@ -50,6 +50,7 @@ var _ Interface = (*Logger)(nil)
 
 // New -.
 func New() *Logger {
+	fmt.Println("Hello!")
 	//var l zerolog.Level
 	once.Do(func() {
 		// switch strings.ToLower(level) {
